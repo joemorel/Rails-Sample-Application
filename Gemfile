@@ -13,6 +13,7 @@ gem 'coffee-script'
 gem 'uglifier'
 
 gem 'jquery-rails'
+gem 'therubyracer-heroku'
 
 group :development do
   gem 'rspec-rails', '2.0.1'
