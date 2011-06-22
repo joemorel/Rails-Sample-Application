@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.0.rc1'
-gem 'rake', '0.8.7'
+gem 'rake', '0.9.2'
 gem 'pg'
 
 # Bundle edge Rails instead:
@@ -18,11 +18,11 @@ gem 'jquery-rails'
 gem 'therubyracer-heroku'
 
 group :development do
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '2.6.1'
 end
 
 group :test do
-  gem 'rspec', '2.0.1'
+  gem 'rspec', '2.6.0'
   gem 'webrat', '0.7.1'
 end
 
